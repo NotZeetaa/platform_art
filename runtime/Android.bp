@@ -569,6 +569,7 @@ gensrcs {
 
 art_cc_library {
     name: "libart",
+    cflags: ["-O3"],
     defaults: [
         "libart_defaults",
         "libart_nativeunwind_defaults",
@@ -603,6 +604,7 @@ art_cc_library {
 
 art_cc_library {
     name: "libartd",
+    cflags: ["-O3"],
     defaults: [
         "art_debug_defaults",
         "libart_defaults",
